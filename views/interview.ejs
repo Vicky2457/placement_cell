@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company List</title>
+    <link rel="stylesheet" href="/css/interview.css">
+</head>
+<body>
+    <nav>
+        <a href="/employee/dashboard">Home</a>
+    </nav>
+    <section>
+        <h1>Company List:</h1>
+        <div>
+            <table>
+                <tr>
+                    <th>SNO.</th>
+                    <th>Company Name</th>
+                    <th>Action</th>
+                </tr>
+                <% for (var i = 0; i < interview_list.length; i++) { %>
+                <tr>
+                    <td><%= i + 1 %></td>
+                    <td><%= interview_list[i].companyName %></td>
+                    <td>
+                        <button>
+                            <a href="/result/<%= interview_list[i].id %>">Mark Result</a>
+                        </button>
+                    </td>
+                </tr>
+                <% } %>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

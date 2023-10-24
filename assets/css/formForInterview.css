@@ -1,0 +1,58 @@
+/* Apply a light background color to the entire page */
+body {
+    background-color: #fbfbfb;
+}
+
+/* Style the content section with a centered layout */
+section {
+    text-align: center;
+    margin: 5%;
+    padding: 50px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the page title with an oblique font style */
+h1 {
+    font-style: oblique;
+    margin-bottom: 5%;
+    color: #333; /* Dark gray text color */
+}
+
+/* Style input fields with a light border and focus effect */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 2px solid #eee; /* Light gray border */
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue box shadow on focus */
+}
+
+/* Style the submit button with a dark background and white text */
+button {
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover with a darker background */
+button:hover {
+    background-color: #29033a; /* Slightly darker background on hover */
+}

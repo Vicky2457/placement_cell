@@ -1,0 +1,85 @@
+/* Apply a light background color to the entire page */
+body {
+    background-color: #f9f9f9;
+}
+
+/* Style the fixed navigation bar */
+nav {
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Style the navigation links */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+/* Style the navigation links on hover */
+nav a:hover {
+    color: #ff6f61; /* Change text color on hover */
+}
+
+/* Style the section containing content */
+section {
+    display: inline-block;
+    margin: 1%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+/* Style the page title */
+h1 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-style: oblique;
+    color: #333;
+}
+
+/* Style the tables */
+table {
+    width: 100%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+/* Style table header and cells */
+th, td {
+    text-align: left;
+    padding: 10px;
+    margin: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Style links within tables */
+#linkToAllocateInterview {
+    font-size: 15px;
+    color: #f6f1f1;
+    text-decoration: underline;
+}
+
+/* Style buttons */
+button {
+    background-color: #1560c2;
+    color: #110404;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-shadow: #110404;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Add a smooth background color transition on hover */
+}
+
+/* Style buttons on hover */
+button:hover {
+    background-color: #03501d; /* Darker blue on hover */
+}

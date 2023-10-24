@@ -1,0 +1,54 @@
+section {
+    margin-left: 10%;
+}
+
+h1 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-style: Helvetica;
+    font-size: 28px;
+    color: #333; /* Text color */
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%; /* Increase the table width */
+    margin: 20px auto; /* Center the table on the page */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+td, th {
+    text-align: left;
+    padding: 12px; /* Increase the cell padding for better spacing */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+td {
+    font-size: 16px;
+}
+
+th {
+    background-color: #333; /* Header background color */
+    color: #fff;
+}
+
+input {
+    padding: 10px; /* Larger input padding for better user experience */
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light border */
+}
+
+button {
+    background-color: #333; /* Dark background color for buttons */
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #555; /* Darker background color on hover */
+}

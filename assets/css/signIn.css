@@ -1,0 +1,56 @@
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+    margin: 10% auto;
+    padding: 20px  ;
+    padding-right: 40px;
+    width: 40%; /* Smaller container width */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 10px; /* Rounded corners */
+}
+
+h1 {
+    margin-bottom: 10px; /* Reduced spacing below the heading */
+    font-style: italic;
+    font-size: 24px; /* Smaller font size */
+    color: #333; /* Dark gray text */
+}
+
+input {
+    width: 100%; /* Full-width input */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px; /* Smaller font size */
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #007bff; /* Blue border on focus */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3); /* Light blue shadow */
+}
+
+#button {
+    width: 120px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    padding: 5px 10px; /* Adjust the padding for inner space */
+
+    font-size: 18px; /* Adjust the font size as needed */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

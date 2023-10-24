@@ -1,0 +1,76 @@
+/* Apply a background color to the entire page */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* Center the content and add some spacing */
+  section {
+    text-align: center;
+    margin: 10%;
+    display: inline;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    position: fixed;
+    background-color: #333; /* Dark background color */
+    width: 100%; /* Make it span the entire width */
+    padding: 10px 0; /* Add some vertical padding */
+  }
+  
+  /* Style the navigation links */
+  nav a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    margin: 0 20px; /* Add horizontal spacing between links */
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Style the navigation links on hover */
+  nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Style the page title */
+  h1 {
+    margin: 3% 0; /* Add spacing above and below */
+    padding: 20px; /* Increase padding for emphasis */
+    font-size: 32px; /* Larger font size */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Style the input fields */
+  input {
+    width: 70%;
+    padding: 10px 15px 10px 10px;
+    margin: 10px 0; /* Add vertical margin */
+    font-size: 16px;
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Add some border radius */
+  }
+  
+  /* Style the input fields on focus */
+  input:focus {
+    outline: none;
+    border: 2px solid #007bff; /* Blue border on focus */
+    box-shadow: 0 0 10px #007bff; /* Add a subtle shadow */
+  }
+  
+  /* Style the buttons */
+  button {
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff; /* Blue background color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Style the buttons on hover */
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
